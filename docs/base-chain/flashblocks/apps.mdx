@@ -263,13 +263,13 @@ Check whether a transaction is present in the mempool:
 curl https://sepolia-preconf.base.org -X POST -H "Content-Type: application/json" -d '{"jsonrpc":"2.0","method":"base_transactionStatus","params":["0x..."],"id":1}'
 ```
 
-**Transaction Found**
+**Transaction Known**
 ```
 {
   "jsonrpc": "2.0",
   "id": 1,
   "result": {
-    "status": "Found"
+    "status": "Known"
   }
 }
 ```
